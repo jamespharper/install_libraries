@@ -4,7 +4,7 @@ libs = c("devtools", "shiny", "CTT", "eRm", "corrplot", "lattice", "plyr",
          "ggmap", "psych", "corrplot", "gmodels", "vcd", "ca", "gtools",
          "ggvis", "class", "caret", "FactoMineR", "tigerstats", "extracat",
          "iplots", "CTT", "ltm", "mirt", "dplyr", "ggplot2", "irtoys",
-         "rmarkdown")
+         "rmarkdown", "Amelia", "tidyverse")
 for (lib in libs) {
   print(lib)
   if (!require(lib, character.only = TRUE)) {
